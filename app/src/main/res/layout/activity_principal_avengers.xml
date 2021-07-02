@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/negro"
+    tools:context=".PrincipalAvengersActivity">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/avng"/>
+     <ImageView
+         android:id="@+id/personajeCambia"
+         android:layout_width="350dp"
+         android:layout_height="480dp"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="120dp"/>
+    <Button
+        android:id="@+id/btn_jugar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:textSize="20sp"
+        android:text="@string/jugar"
+        android:background="@color/boton_avng"
+        android:textColor="@color/blanco"/>
+
+    <Button
+        android:id="@+id/btn_personajes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:text="@string/personajes"
+        android:background="@color/boton_avng"
+        android:textColor="@color/blanco"/>
+
+</RelativeLayout>

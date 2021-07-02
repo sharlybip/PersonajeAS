@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Personaje</string>
+    <string name="txt1_instrucciones">Este es un juego de adivinanzas, en el cual tendrás que escribir el nombre correcto de
+        cada personaje o imagen que se te muestre en pantalla.</string>
+    <string name="txt2_instrucciones">Deberás de alcanzar un score de 10 para “completar el juego” y así ser el mejor, cuentas
+        con 3 vidas para poder terminar el juego.</string>
+    <string name="txt3_instrucciones">Si pierdes tus tres vidas el juego habrá terminado y deberás empezar nuevamente</string>
+    <string name="txt4_instrucciones">¡¡¡ VAMOS, MUCHA SUERTE!!!</string>
+    <string name="selecciona">SELECCIONA!</string>
+    <string name="jugar">JUGAR</string>
+    <string name="personajes">PERSONAJES</string>
+    <string name="adivina">¿Adivinas?</string>
+    <string name="no">¿A que no?</string>
+    <string name="instrucciones">Instrucciones</string>
+    <string name="saltar">SALTAR</string>
+    <string name="name">..Nombre del Personaje..</string>
+    <string name="verif">VERIFICAR</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jcarl.personaje">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".PerdisteActivity"
+                  android:theme="@style/AppTheme.Temapopups"></activity>
+        <activity android:name=".EmergenteActivity"
+                  android:theme="@style/AppTheme.Temapopups"/>
+        <activity android:name=".PersonajesWinnieActivity" />
+        <activity android:name=".PersonajesSimpsonsActivity" />
+        <activity android:name=".PersonajesDoraActivity" />
+        <activity android:name=".PersonajesAvengersActivity" />
+        <activity android:name=".JuegoWinnieActivity" />
+        <activity android:name=".JuegoSimpsonActivity" />
+        <activity android:name=".JuegoDoraActivity" />
+        <activity android:name=".JuegoAvengersActivity" />
+        <activity android:name=".PrincipalWinnieActivity" />
+        <activity android:name=".PrincipalSimpsonsActivity" />
+        <activity android:name=".PrincipalDoraActivity" />
+        <activity android:name=".PrincipalAvengersActivity" />
+        <activity android:name=".MenuJuegosActivity" />
+        <activity android:name=".InicioActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InstruccionesActivity" />
+    </application>
+
+</manifest>
